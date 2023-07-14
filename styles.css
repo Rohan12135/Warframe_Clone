@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+.container {
+  height: 66px;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  width: 100%;
+}
+#myVideo {
+  max-width: 100%;
+  position: relative;
+}
+.logo {
+  height: 29px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+span {
+  background-color: #b30000;
+  padding: 2px 5px;
+  color: white;
+}
+.bi-caret-down-fill {
+  font-size: 11px;
+}
+.prf-content {
+  width: 232px;
+  display: flex;
+  gap: 8px;
+  align-items: start;
+}
+.bal {
+  margin-left: 65px;
+  margin-top: 5px;
+}
+.bi-box-arrow-up-right {
+  margin-left: 3px;
+}
+.lr {
+  font-weight: 400;
+  color: rgb(126, 123, 123) !important;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.warframe {
+  width: 392px;
+  height: 199.5px;
+}
+.content a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 250px;
+  top: 339px;
+  position: absolute;
+}
+.av {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+.btn {
+  padding: 0 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  margin: 8px;
+  min-height: 44px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.red {
+  background-color: #b30000;
+}
+.normal {
+  background-color: #b3000000;
+  border: 1px solid white;
+}
+.launch-img {
+  height: 19px;
+  margin-top: -2px;
+  margin-left: -17px;
+}
+.wisp {
+  height: 544px;
+  width: 977px;
+  background-image: url(./e32ae5312b58b8d47c91aa20528f62df_1280x720.png);
+  background-size: cover;
+}
+.excal {
+  height: 264px;
+  margin-bottom: 10px;
+  background-image: url(./604ecbcc3704d5ef4d7fa585f31f29f9_1280x720.png);
+  background-size: cover;
+}
+.mirage {
+  height: 270px;
+  margin-bottom: 10px;
+  background-image: url(./cf6e94b58b0e6f4166e9f5d9a50842a8_1280x720.png);
+  background-size: cover;
+}
+.middle-content {
+  display: flex;
+  padding: 0 80px 64px;
+  gap: 17px;
+  margin-left: 124px;
+}
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  position: absolute;
+}
+.left-text {
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+.left-text p {
+  font-size: 16px;
+}
+.left-text h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.img-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 10px;
+}
+.ig {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 10px;
+}
+.ig p {
+  color: white;
+  font-size: 16px;
+}
+.ig h3 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+.img-1 p {
+  color: white;
+  font-size: 16px;
+}
+.img-1 h3 {
+  color: white;
+  font-size: 16px;
+}
+.text-content {
+  display: flex;
+}
+.wrapper-text {
+  margin-top: 30px;
+  display: flex;
+  gap: 80px;
+}
+.text-part .date {
+  font-size: 12px;
+  color: #595959;
+}
+.text-part .sum {
+  font-size: 14px;
+  color: #595959;
+}
+.text-part h3 {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+.text-part {
+  padding: 16px;
+}
+.next-content {
+  margin-top: 648px;
+  display: flex;
+  justify-content: center;
+}
+.more-btn {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+}
+.prime-access {
+  height: 625px;
+  width: 1903px;
+  background-image: url(./prime-access-bg.jpg);
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prime-access-right {
+  height: 836px;
+}
+.prime-access-left {
+  height: 386.38px;
+  width: 648px;
+  background-color: rgba(0, 0, 0, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 0 70px;
+  border: 2px solid;
+  border-image: radial-gradient(
+      ellipse at center,
+      #ffb50f 0,
+      hsla(0, 0%, 100%, 0.1) 100%
+    )
+    2;
+}
+.prime-access-left a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 100px;
+}
+.prime-access-left h1 {
+  color: white;
+  font-size: 48px;
+  font-family: roboto;
+}
+.prime-access-left p {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.prime-access-left button {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.prime-access-left img {
+  height: 69px;
+  top: 0;
+  margin-bottom: 47px;
+  margin-left: -97px;
+}
+.platinum-wrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.platinum {
+  width: 1365.6px;
+  height: 306.4px;
+  border: 2px solid;
+  border-image: radial-gradient(
+      ellipse at center,
+      #356581 0,
+      hsla(0, 0%, 100%, 0) 100%
+    )
+    2;
+  position: relative;
+  background: linear-gradient(
+    301.33deg,
+    rgba(53, 101, 129, 0) 21.7%,
+    rgba(53, 101, 129, 0.1) 34.1%,
+    rgba(53, 101, 129, 0) 63.47%
+  );
+}
+.plat-img {
+  position: absolute;
+  left: 300px;
+  margin-bottom: 95px;
+}
+.excal-plat-img {
+  margin-right: 10px;
+}
+.plat-content {
+  position: absolute;
+  right: 300px;
+  width: 625px;
+}
+.prime-resur {
+  background-image: url(./prime-resurgence-bg-desktop.jpg);
+  height: 745px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.prime-resur-border {
+  width: 700px;
+  height: 382.38px;
+  border: 2px solid;
+  border-image: radial-gradient(
+      ellipse at center,
+      #fff 0,
+      hsla(0, 0%, 100%, 0) 100%
+    )
+    2;
+  margin-top: 224px;
+  background: linear-gradient(
+    301.33deg,
+    rgba(221, 180, 88, 0) 21.7%,
+    rgba(221, 180, 88, 0.15) 34.1%,
+    rgba(221, 180, 88, 0) 63.47%
+  );
+  padding: 64px;
+}
+.resur-img {
+  height: 750px;
+}
+.resur-logo {
+  width: 315px;
+  position: absolute;
+  right: 232px;
+  top: 256px;
+}
+.prime-btn1 {
+  background-color: #b30000;
+  margin: 0;
+  margin-left: 58px;
+}
+.prime-btn2 {
+  background: transparent;
+  border: 1px solid white;
+  margin: 0;
+  margin-left: 10px;
+}
+.merch-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 403px;
+}
+.merch-border {
+  width: 1471px;
+  height: 271px;
+  border: 2px solid;
+  border-image: radial-gradient(
+      ellipse at center,
+      #356581 0,
+      hsla(0, 0%, 100%, 0) 100%
+    )
+    2;
+  background: linear-gradient(
+    301.33deg,
+    rgba(53, 101, 129, 0) 21.7%,
+    rgba(53, 101, 129, 0.1) 34.1%,
+    rgba(53, 101, 129, 0) 63.47%
+  );
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: url(./wf-bg-logo-2x.png);
+  background-repeat: no-repeat;
+  background-size: 40%auto;
+}
+.merch-img img {
+  position: absolute;
+}
+.merch-img {
+  margin-right: 50px;
+}
+.merch-content {
+  margin-left: 50px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #59595986;
+  padding: 15px;
+}
+.lang {
+  display: flex;
+  border: 1px solid black;
+  padding: 8px;
+}
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+}
+.footer-social a {
+  background-color: #b30000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  margin: 0 4px;
+  padding: 10px;
+  width: 40px;
+}
+.footer-social img {
+  height: 20px;
+  width: 20px;
+}
+.left-hand img {
+  height: 100px;
+  width: 68px;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+.footer-list li {
+  font-weight: 400;
+  list-style: inside;
+}
+.footer-list {
+  display: block;
+}
+.last {
+  display: flex;
+  justify-content: center;
+}
+.platform {
+  padding: 20px 20px 160px 20px;
+}
